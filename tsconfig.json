@@ -1,13 +1,22 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "allowJs": true,
+    "target": "ES5",
+    "module": "commonjs",
+    "checkJs": true,
+    "declaration": true,
+    // "outFile": "./",
+    "outDir": "./",
+    "rootDir": "./",
+    "removeComments": true ,
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "esModuleInterop": true,
+    // "noUnusedLocals": true,
+    "noUnusedParameters": false,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
@@ -35,5 +44,5 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }
